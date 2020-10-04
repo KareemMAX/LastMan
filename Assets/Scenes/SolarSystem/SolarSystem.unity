@@ -671,7 +671,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 10000000
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -873,7 +873,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 10000000
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -891,7 +891,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557789033}
-  m_LocalRotation: {x: 0.02237954, y: 0.012920792, z: 0.49983296, w: 0.86573625}
+  m_LocalRotation: {x: 0.02237952, y: 0.012920822, z: 0.49983296, w: 0.86573625}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -947,7 +947,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 10000000
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -965,7 +965,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647447260}
-  m_LocalRotation: {x: -0.025590392, y: -0.01132892, z: 0.49987605, w: 0.8656447}
+  m_LocalRotation: {x: -0.025590384, y: -0.011328918, z: 0.49987605, w: 0.8656447}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1127,7 +1127,6 @@ GameObject:
   m_Component:
   - component: {fileID: 790849102}
   - component: {fileID: 790849101}
-  - component: {fileID: 790849103}
   m_Layer: 0
   m_Name: CM FreeLook1
   m_TagString: Untagged
@@ -1160,7 +1159,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 10000000
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -1253,19 +1252,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &790849103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790849100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d16ef295e1e1c134db705e64e2c76daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minDistance: 20
 --- !u!1 &973180265
 GameObject:
   m_ObjectHideFlags: 3
@@ -11660,7 +11646,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 5000
+  far clip plane: 10000000
   field of view: 40
   orthographic: 0
   orthographic size: 5
@@ -11686,7 +11672,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072141043}
-  m_LocalRotation: {x: -0.025590386, y: -0.011328917, z: 0.49987605, w: 0.8656447}
+  m_LocalRotation: {x: -0.025590379, y: -0.011328913, z: 0.49987605, w: 0.8656447}
   m_LocalPosition: {x: 91.63244, y: 675.71204, z: -729}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
